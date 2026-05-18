@@ -81,6 +81,7 @@ object StorageFlow {
         cachedStorages.values.forEach { it.close() }
         HotCache.clear()
         CaptureManager.capturing = false
+        CaptureManager.stopping = false
         lastStored = null
         LOG.info("Finished caching")
     }
