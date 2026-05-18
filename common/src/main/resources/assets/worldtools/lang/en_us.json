@@ -142,6 +142,7 @@
   "worldtools.log.error.not_capturing": "No capture is running yet!",
   "worldtools.log.error.unhandled_drain_failure": "Capture drain failed for %s: %s. The world directory may be incomplete.",
   "worldtools.log.error.world_name_too_long": "World name \"%s\" is too long! (max %d characters)",
+  "worldtools.log.info.autodownload_skipped_drain_in_progress": "Auto-download skipped: a previous capture is still saving. Wait for it to finish before re-joining.",
   "worldtools.log.info.singleplayer_capture": "EXPERIMENTAL: Capturing in singleplayer is experimental and may not work as expected!",
   "worldtools.log.info.started_capture": "Started capturing %s...",
   "worldtools.log.info.stopping_capture": "Stopping capture %s..."
